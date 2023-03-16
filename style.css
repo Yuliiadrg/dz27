@@ -1,0 +1,40 @@
+.time__display {
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(45, 19, 146);
+    flex-direction: column;
+}
+.time {
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgb(45, 19, 146);
+}
+form input {
+    margin-bottom: 15px;
+}
+form .btn {
+    font-size: 16px;
+    margin-top: 15px;
+    color: white;
+    height: 40px;
+    background-color: rgb(45, 19, 146);
+}
+.display--hour {
+    color: rgb(33, 6, 141);
+}
+.display--minutes {
+    color: rgb(78, 41, 199);
+}
+.display--seconds {
+    color: rgb(172, 127, 255);
+}
+.new_time {
+    color: rgb(255, 0, 111);
+}

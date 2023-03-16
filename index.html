@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Objects JS</title>
+</head>
+<body>
+    <div class="time__display">Current time:
+        <div class="time">
+            <div class="display--hour"></div>
+            <div class="display--minutes"></div>
+            <div class="display--seconds"></div>
+        </div>
+        <form>
+            <label class="change-hour" for="change-hour">
+                The number of hours to 
+                which we have to change the time:
+                <input id="change-hour" 
+                type="number" placeholder="hours "/>
+            </label>
+            <label class="change-minutes" for="change-minutes">
+                Number of minutes:
+                <input id="change-minutes" 
+                type="number" placeholder="minutes"/>
+            </label>
+            <label class="change-seconds" for="change-seconds">
+                Number of seconds:
+                <input id="change-seconds" 
+                type="number" placeholder="seconds"/>
+            </label>
+            <button type="submit" class="btn">
+                Change the time
+            </button>
+        </form>
+        <div class="new_time time">
+            <div class="new--hour"></div>
+            <div class="new--minute"></div>
+            <div class="new--second"></div>
+        </div>
+    </div>
+    <script src="objects.js"></script>
+    </body>
+    </html>
